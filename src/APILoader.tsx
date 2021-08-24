@@ -13,7 +13,7 @@ interface State {
     loaded: boolean;
 }
 
-export default class APILoader<T> extends React.Component<Props<T>, State> {
+export class APILoader<T> extends React.Component<Props<T>, State> {
     state = {
         loaded: false
     };

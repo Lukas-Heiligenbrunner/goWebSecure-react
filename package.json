@@ -1,6 +1,6 @@
 {
   "name": "gowebsecure-react",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.3",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -26,8 +26,8 @@
     "build": "tsc",
     "prepare": "npm run build",
     "format": "",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "version": "npm run format",
+    "postversion": ""
   },
   "repository": {
     "type": "git",
